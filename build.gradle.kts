@@ -4,7 +4,7 @@ plugins {
     kotlin("jvm") version "1.7.20"
 }
 
-group = "io.lukasprediger.aoc"
+group = "io.github.lukasprediger.aoc"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -13,6 +13,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    testImplementation("org.junit.jupiter:junit-jupiter-params:5.9.0")
 }
 
 tasks.test {
