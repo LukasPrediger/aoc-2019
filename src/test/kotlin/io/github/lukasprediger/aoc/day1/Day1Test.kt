@@ -1,6 +1,6 @@
 package io.github.lukasprediger.aoc.day1
 
-import org.junit.jupiter.api.Assertions.assertEquals
+import io.github.lukasprediger.aoc.common.shouldBe
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.CsvSource
 
@@ -18,5 +18,4 @@ internal class Day1Test {
         mass.totalFuelRequirement shouldBe fuel
     }
 
-    private infix fun Any.shouldBe(other: Any) = assertEquals(other, this)
 }
